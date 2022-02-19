@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const cors = require('cors')
 
-const bodyParser = require("body-parser");
+const bodyParser = require("body-parser"); // server/favorite에서 req.body 이용 가능
 const cookieParser = require("cookie-parser");
 
 const config = require("./config/key");
@@ -34,6 +34,9 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 
 app.use('/api/users', require('./routes/users'));
+app.use('/api/favorite', require('./routes/favorite')); // favorite의 주소 추가, endpoint가 /api/favorite 으로 시작
+
+
 
 
 //use this to show the image you have in node js server to client (react js)
