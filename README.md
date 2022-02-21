@@ -48,4 +48,12 @@
 + movieRunTime <br>
 <br>
 
-[Favorite Number Error ~ End]
+2. Favorite 버튼 UI 만들기 <br>
+
+3. Favorite List에 몇 명이 넣었는지 세기 <br>
+
+4. Favorite List에 내가 넣었는지 세기 (Favorite List 추가 삭제) <br>
+
+5. 데이터를 화면에 보여주기 (Favorite 페이지 만들기) <br>
+
+
