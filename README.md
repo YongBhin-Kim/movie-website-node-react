@@ -21,6 +21,8 @@
 - Load More 버튼 클릭 시에 일어난다 -> `<button onClick={클래스이름}>` <br>
 - `const loadMoreItems` 함수 생성<br>
 
+<img width="1431" alt="image" src="https://user-images.githubusercontent.com/98372474/154900183-a8bbdd44-e4d9-4552-b34b-68e5a7a73db6.png">
+
 <br><br>
 **[Movie Detail 페이지 만들기]** <br>
 
@@ -36,6 +38,11 @@
 
 - MovieDetail 의 Cast버전 Toggle에 구현<br>
 
+
+
+<img width="1431" alt="image" src="https://user-images.githubusercontent.com/98372474/154900292-aafdf6b5-3513-4d76-a5a6-0264de2e5a30.png">
+
+
 <br><br>
 **[Favorite 버튼 만들기(1)]** <br>
 
@@ -49,6 +56,9 @@
 <br>
 
 2. Favorite 버튼 UI 만들기 <br>
+
+<img width="1431" alt="image" src="https://user-images.githubusercontent.com/98372474/154900496-e28139c9-af83-4fd2-ac1a-c2159e7ad84f.png">
+
 
 3. Favorite List에 몇 명이 넣었는지 세기 <br>
 
