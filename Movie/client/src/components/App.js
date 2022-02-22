@@ -7,8 +7,9 @@ import LoginPage from "./views/LoginPage/LoginPage.js";
 import RegisterPage from "./views/RegisterPage/RegisterPage.js";
 import NavBar from "./views/NavBar/NavBar";
 import Footer from "./views/Footer/Footer"
-import MovieDetail from './views/MovieDetail/MovieDetail'; 
+import MovieDetail from './views/MovieDetail/MovieDetail';
 // MovieDetail 추가 : 아무나 이 페이지에 들어올 수 있음
+import FavoritePage from './views/FavoritePage/FavoritePage';
 
 //null   Anyone Can go inside
 //true   only logged in user can go inside
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/login" component={Auth(LoginPage, false)} />
           <Route exact path="/register" component={Auth(RegisterPage, false)} />
           <Route exact path="/movie/:movieId" component={Auth(MovieDetail, null)} /> 
+          <Route exact path="/favorite" component={Auth(FavoritePage, true)} /> {/* 로그인한 사람만 보기 */}
         </Switch>
       </div>
       <Footer />
