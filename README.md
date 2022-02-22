@@ -66,4 +66,14 @@
 
 5. 데이터를 화면에 보여주기 (Favorite 페이지 만들기) <br>
 
+**[Favorite Page]** <br>
+
+1. Favorite 페이지를 위한 Template 간단히 만들기 <br>
+- javascript, css 이용 <br>
+
+2. Mongo DB에서 Favorite으로 된 영화 정보들을 가져오기 <br>
+
+3. 가져온 데이터들을 화면에서 보여주기 <br>
+
+4. Remove 기능 만들기 <br>
 
